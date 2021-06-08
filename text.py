@@ -15,7 +15,6 @@ from modules import LSTMEncoder, LSTMDecoder, GaussianLSTMEncoder
 from logger import Logger
 from utils import calc_mi
 
-"update one file test"
 clip_grad = 5.0
 decay_epoch = 5
 lr_decay = 0.5
