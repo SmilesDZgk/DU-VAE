@@ -1,6 +1,0 @@
-Namespace(batch_size=32, cuda=False, dataset='short_yelp', dec_dropout_in=0.5, dec_dropout_out=0.5, dec_nh=512, dec_type='lstm', delta_rate=1, device='cpu', enc_nh=512, enc_type='lstm', epochs=100, eval=False, gamma=1.0, iw_nsamples=500, jobid=0, kl_start=0.0, label=True, load_path='', log_niter=50, log_path='models/short_yelp/short_yelp_KL0.00_warm10_gamma1.00_dr1.00_nz32_drop0.50_0_0_783435_lr1.0/log.txt', lr=1.0, momentum=0, ni=128, nsamples=1, nz=32, nz_new=32, p_drop=0.5, reset_dec=False, save_path='models/short_yelp/short_yelp_KL0.00_warm10_gamma1.00_dr1.00_nz32_drop0.50_0_0_783435_lr1.0/model.pt', seed=783435, target_kl=-1, taskid=0, test_data='data/short_yelp_data/short_yelp.test.txt', test_nepoch=5, train_data='data/short_yelp_data/short_yelp.train.txt', val_data='data/short_yelp_data/short_yelp.valid.txt', vocab_file='data/short_yelp_data/vocab.txt', warm_up=10)
-data/short_yelp_data/vocab.txt
-Train data: 100000 samples
-finish reading datasets, vocab size is 8411
-dropped sentences: 0
-epoch: 0, iter: 0, avg_loss: 151.0429, kl/H(z|x): 15.4808, mi: 0.0923, recon: 135.5621,au 0, time elapsed 40.76s

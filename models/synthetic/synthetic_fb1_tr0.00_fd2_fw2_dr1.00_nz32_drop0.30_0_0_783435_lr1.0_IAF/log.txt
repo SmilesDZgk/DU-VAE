@@ -1,9 +1,0 @@
-Namespace(batch_size=32, cuda=False, dataset='synthetic', dec_dropout_in=0.5, dec_dropout_out=0.5, dec_nh=50, dec_type='lstm', delta_rate=1.0, device='cpu', drop_start=1.0, enc_nh=50, enc_type='lstm', epochs=50, eval=False, fb=1, flow_depth=2, flow_width=2, gamma=0.0, iw_nsamples=500, jobid=0, kl_start=1.0, label=True, load_path='', log_path='models/synthetic/synthetic_fb1_tr0.00_fd2_fw2_dr1.00_nz32_drop0.30_0_0_783435_lr1.0_IAF/log.txt', lr=1.0, momentum=0, ni=50, nsamples=1, nz=32, nz_new=32, p_drop=0.3, save_path='models/synthetic/synthetic_fb1_tr0.00_fd2_fw2_dr1.00_nz32_drop0.30_0_0_783435_lr1.0_IAF/model.pt', seed=783435, target_kl=0.0, taskid=0, test_data='data/synthetic_data/synthetic_test.txt', test_nepoch=1, train_data='data/synthetic_data/synthetic_train.txt', val_data='data/synthetic_data/synthetic_test.txt', vocab_file='data/synthetic_data/vocab.txt', warm_up=100)
-data/synthetic_data/vocab.txt
-Train data: 16000 samples
-finish reading datasets, vocab size is 1004
-dropped sentences: 0
-epoch: 0, iter: 0, avg_loss: 89.9236, kl/H(z|x): 13.8949, mi: 0.0091, recon: 76.0287,au 0, time elapsed 3.66s
-epoch: 0, iter: 50, avg_loss: 75.8018, kl/H(z|x): 9.7718, mi: 0.0997, recon: 66.0301,au 0, time elapsed 8.55s
-epoch: 0, iter: 100, avg_loss: 69.6457, kl/H(z|x): 9.1719, mi: -0.0288, recon: 60.4737,au 0, time elapsed 13.30s
-epoch: 0, iter: 150, avg_loss: 68.5756, kl/H(z|x): 9.0761, mi: -0.0296, recon: 59.4994,au 0, time elapsed 18.10s
