@@ -1,6 +1,0 @@
-Namespace(batch_size=50, cuda=False, data_file='data/omniglot_data/omniglot.pt', dataset='omniglot', dec_kernel_size=[9, 9, 9, 7, 7, 7, 5, 5, 5, 3, 3, 3], dec_layers=[32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32], delta_rate=1.0, device='cpu', drop_start=1.0, enc_layers=[64, 64, 64], epochs=500, eval=False, fb=0, flow_depth=2, flow_width=2, gamma=0.5, img_size=[1, 28, 28], iw_nsamples=500, jobid=0, kl_start=1.0, label=False, latent_feature_map=4, load_path='', log_path='models/omniglot/omniglot_gamma0.50_fd2_fw2_dr1.00_nz32_drop0.15_0_0_783435_IAF/log.txt', nsamples=1, nz=32, nz_new=32, p_drop=0.15, reset_dec=False, save_path='models/omniglot/omniglot_gamma0.50_fd2_fw2_dr1.00_nz32_drop0.15_0_0_783435_IAF/model.pt', seed=783435, target_kl=0.0, taskid=0, test_nepoch=5, warm_up=10)
-1.5.0
-Train data: 447 batches
-Val data: 40 batches
-Test data: 162 batches
-epoch: 0, iter: 0, avg_loss: 564.9081, kl: 17.1125, mi: 0.4995, recon: 547.7956,au 0, time elapsed 11.56s
