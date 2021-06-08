@@ -1,0 +1,5 @@
+Namespace(batch_size=32, cuda=False, dataset='synthetic', dec_dropout_in=0.5, dec_dropout_out=0.5, dec_nh=50, dec_type='lstm', decode_from='', decode_input='', decoding_strategy='greedy', delta_rate=0.0, device='cpu', enc_nh=50, enc_type='lstm', epochs=50, eval=False, gamma=0.0, iw_nsamples=500, jobid=0, kl_start=1.0, label=True, load_path='', log_path='models/synthetic/syntheticKL1.00_dr0.00_nz32_0_0_783435_lr1.0_betaF_5/log.txt', lr=1.0, momentum=0, ni=50, nsamples=1, nz=32, nz_new=32, p_drop=0, reset_dec=False, save_path='models/synthetic/syntheticKL1.00_dr0.00_nz32_0_0_783435_lr1.0_betaF_5/model.pt', seed=783435, target_kl=-1, taskid=0, test_data='data/synthetic_data/synthetic_test.txt', test_nepoch=1, train_data='data/synthetic_data/synthetic_train.txt', val_data='data/synthetic_data/synthetic_test.txt', vocab_file='data/synthetic_data/vocab.txt', warm_up=100)
+data/synthetic_data/vocab.txt
+Train data: 16000 samples
+finish reading datasets, vocab size is 1004
+dropped sentences: 0

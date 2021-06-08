@@ -1,0 +1,28 @@
+Namespace(batch_size=32, cuda=False, dataset='synthetic', dec_dropout_in=0.5, dec_dropout_out=0.5, dec_nh=50, dec_type='lstm', delta_rate=1.0, device='cpu', drop_start=1.0, enc_nh=50, enc_type='lstm', epochs=50, eval=False, fb=0, flow_depth=2, flow_width=2, gamma=0.8, iw_nsamples=500, jobid=0, kl_start=1.0, label=True, load_path='', log_path='models/synthetic/synthetic_gamma0.80_fd2_fw2_dr1.00_nz32_drop0.30_0_0_783435_lr1.0_IAF/log.txt', lr=1.0, momentum=0, ni=50, nsamples=1, nz=32, nz_new=32, p_drop=0.3, save_path='models/synthetic/synthetic_gamma0.80_fd2_fw2_dr1.00_nz32_drop0.30_0_0_783435_lr1.0_IAF/model.pt', seed=783435, target_kl=0.0, taskid=0, test_data='data/synthetic_data/synthetic_test.txt', test_nepoch=1, train_data='data/synthetic_data/synthetic_train.txt', val_data='data/synthetic_data/synthetic_test.txt', vocab_file='data/synthetic_data/vocab.txt', warm_up=100)
+data/synthetic_data/vocab.txt
+Train data: 16000 samples
+finish reading datasets, vocab size is 1004
+dropped sentences: 0
+epoch: 0, iter: 0, avg_loss: 90.0487, kl/H(z|x): 14.0200, mi: 0.0092, recon: 76.0288,au 0, time elapsed 3.77s
+epoch: 0, iter: 50, avg_loss: 80.6753, kl/H(z|x): 14.6578, mi: 0.8141, recon: 66.0176,au 18, time elapsed 8.55s
+epoch: 0, iter: 100, avg_loss: 72.3764, kl/H(z|x): 13.0901, mi: 1.0537, recon: 59.2863,au 19, time elapsed 13.41s
+epoch: 0, iter: 150, avg_loss: 71.4821, kl/H(z|x): 13.4491, mi: 0.6681, recon: 58.0330,au 19, time elapsed 18.23s
+epoch: 0, iter: 200, avg_loss: 68.6188, kl/H(z|x): 12.5864, mi: 0.6411, recon: 56.0324,au 18, time elapsed 23.76s
+epoch: 0, iter: 250, avg_loss: 65.7556, kl/H(z|x): 12.0306, mi: 0.8201, recon: 53.7249,au 17, time elapsed 29.69s
+epoch: 0, iter: 300, avg_loss: 64.6366, kl/H(z|x): 12.2975, mi: 0.6563, recon: 52.3392,au 21, time elapsed 34.73s
+epoch: 0, iter: 350, avg_loss: 63.6333, kl/H(z|x): 12.1879, mi: 0.8044, recon: 51.4454,au 21, time elapsed 39.77s
+epoch: 0, iter: 400, avg_loss: 63.1732, kl/H(z|x): 12.0782, mi: 0.5898, recon: 51.0949,au 15, time elapsed 44.60s
+epoch: 0, iter: 450, avg_loss: 62.4059, kl/H(z|x): 11.7999, mi: 0.6608, recon: 50.6061,au 15, time elapsed 50.74s
+kl weight 1.0000
+VAL --- avg_loss: 51.0809, kl/H(z|x): 2.9957, mi: 0.6483, recon: 48.0950, nll: 51.0907, ppl: 104.0226
+22 active units
+update best loss
+TEST --- avg_loss: 51.0537, kl/H(z|x): 2.9736, mi: 0.6390, recon: 48.0735, nll: 51.0471, ppl: 103.6111
+epoch: 1, iter: 500, avg_loss: 59.4675, kl/H(z|x): 11.8408, recon: 47.6266,time elapsed 61.07s
+epoch: 1, iter: 550, avg_loss: 60.6828, kl/H(z|x): 11.7920, recon: 48.8908,time elapsed 62.34s
+epoch: 1, iter: 600, avg_loss: 60.5349, kl/H(z|x): 11.8571, recon: 48.6779,time elapsed 63.65s
+epoch: 1, iter: 650, avg_loss: 59.8986, kl/H(z|x): 11.9386, recon: 47.9600,time elapsed 64.92s
+epoch: 1, iter: 700, avg_loss: 59.4865, kl/H(z|x): 11.8225, recon: 47.6640,time elapsed 66.25s
+epoch: 1, iter: 750, avg_loss: 59.0838, kl/H(z|x): 11.7320, recon: 47.3517,time elapsed 67.57s
+epoch: 1, iter: 800, avg_loss: 58.9415, kl/H(z|x): 11.8043, recon: 47.1373,time elapsed 68.85s
+epoch: 1, iter: 850, avg_loss: 58.6082, kl/H(z|x): 11.6145, recon: 46.9938,time elapsed 70.12s

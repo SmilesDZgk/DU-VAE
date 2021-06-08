@@ -1,0 +1,11 @@
+Namespace(batch_size=32, cuda=False, dataset='synthetic', dec_dropout_in=0.5, dec_dropout_out=0.5, dec_nh=50, dec_type='lstm', delta_rate=0.0, device='cpu', drop_start=1.0, enc_nh=50, enc_type='lstm', epochs=50, eval=False, fb=0, flow_depth=2, flow_width=2, gamma=0.0, gamma_train=False, iw_nsamples=500, jobid=0, kl_start=1.0, label=True, load_path='', log_path='models/synthetic/synthetic_fd2_fw2_dr0.00_nz32_0_0_783435_lr1.0_IAF/log.txt', lr=1.0, momentum=0, ni=50, nsamples=1, nz=32, nz_new=32, p_drop=0, save_path='models/synthetic/synthetic_fd2_fw2_dr0.00_nz32_0_0_783435_lr1.0_IAF/model.pt', seed=783435, target_kl=0.0, taskid=0, test_data='data/synthetic_data/synthetic_test.txt', test_nepoch=1, train_data='data/synthetic_data/synthetic_train.txt', val_data='data/synthetic_data/synthetic_test.txt', vocab_file='data/synthetic_data/vocab.txt', warm_up=100)
+data/synthetic_data/vocab.txt
+Train data: 16000 samples
+finish reading datasets, vocab size is 1004
+dropped sentences: 0
+epoch: 0, iter: 0, avg_loss: 84.0465, kl/H(z|x): 8.0181, mi: -0.0320, recon: 76.0285,au 0, time elapsed 3.85s
+epoch: 0, iter: 50, avg_loss: 67.9761, kl/H(z|x): 1.1939, mi: 0.0944, recon: 66.7822,au 0, time elapsed 8.59s
+epoch: 0, iter: 100, avg_loss: 60.7799, kl/H(z|x): 0.1675, mi: -0.0444, recon: 60.6124,au 0, time elapsed 13.57s
+epoch: 0, iter: 150, avg_loss: 59.6752, kl/H(z|x): 0.1535, mi: -0.0352, recon: 59.5216,au 0, time elapsed 18.29s
+epoch: 0, iter: 200, avg_loss: 56.9132, kl/H(z|x): 0.1076, mi: 0.0690, recon: 56.8057,au 0, time elapsed 23.04s
+epoch: 0, iter: 250, avg_loss: 54.5933, kl/H(z|x): 0.1175, mi: 0.0078, recon: 54.4758,au 0, time elapsed 27.81s

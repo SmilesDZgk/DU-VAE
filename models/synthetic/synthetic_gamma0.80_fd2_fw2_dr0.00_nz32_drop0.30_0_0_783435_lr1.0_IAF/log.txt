@@ -1,0 +1,24 @@
+Namespace(batch_size=32, cuda=False, dataset='synthetic', dec_dropout_in=0.5, dec_dropout_out=0.5, dec_nh=50, dec_type='lstm', delta_rate=0.0, device='cpu', drop_start=1.0, enc_nh=50, enc_type='lstm', epochs=50, eval=False, fb=0, flow_depth=2, flow_width=2, gamma=0.8, iw_nsamples=500, jobid=0, kl_start=1.0, label=True, load_path='', log_path='models/synthetic/synthetic_gamma0.80_fd2_fw2_dr0.00_nz32_drop0.30_0_0_783435_lr1.0_IAF/log.txt', lr=1.0, momentum=0, ni=50, nsamples=1, nz=32, nz_new=32, p_drop=0.3, save_path='models/synthetic/synthetic_gamma0.80_fd2_fw2_dr0.00_nz32_drop0.30_0_0_783435_lr1.0_IAF/model.pt', seed=783435, target_kl=0.0, taskid=0, test_data='data/synthetic_data/synthetic_test.txt', test_nepoch=1, train_data='data/synthetic_data/synthetic_train.txt', val_data='data/synthetic_data/synthetic_test.txt', vocab_file='data/synthetic_data/vocab.txt', warm_up=100)
+data/synthetic_data/vocab.txt
+Train data: 16000 samples
+finish reading datasets, vocab size is 1004
+dropped sentences: 0
+epoch: 0, iter: 0, avg_loss: 84.2557, kl/H(z|x): 8.2271, mi: -0.0313, recon: 76.0286,au 0, time elapsed 3.82s
+epoch: 0, iter: 50, avg_loss: 70.6074, kl/H(z|x): 4.2926, mi: 0.7366, recon: 66.3148,au 22, time elapsed 9.52s
+epoch: 0, iter: 100, avg_loss: 62.1741, kl/H(z|x): 2.6194, mi: 0.6129, recon: 59.5546,au 23, time elapsed 14.88s
+epoch: 0, iter: 150, avg_loss: 60.9270, kl/H(z|x): 2.6617, mi: 0.6679, recon: 58.2653,au 23, time elapsed 20.14s
+epoch: 0, iter: 200, avg_loss: 58.7194, kl/H(z|x): 2.2669, mi: 0.6364, recon: 56.4524,au 24, time elapsed 25.00s
+epoch: 0, iter: 250, avg_loss: 55.7990, kl/H(z|x): 1.8970, mi: 0.4772, recon: 53.9020,au 20, time elapsed 29.83s
+epoch: 0, iter: 300, avg_loss: 54.3986, kl/H(z|x): 1.9483, mi: 0.3116, recon: 52.4503,au 19, time elapsed 34.72s
+epoch: 0, iter: 350, avg_loss: 53.3452, kl/H(z|x): 1.8530, mi: 0.5277, recon: 51.4922,au 19, time elapsed 39.95s
+epoch: 0, iter: 400, avg_loss: 53.2150, kl/H(z|x): 1.7295, mi: 0.2439, recon: 51.4855,au 16, time elapsed 45.09s
+epoch: 0, iter: 450, avg_loss: 52.9093, kl/H(z|x): 1.8259, mi: 0.3234, recon: 51.0834,au 18, time elapsed 50.17s
+kl weight 1.0000
+VAL --- avg_loss: 48.8077, kl/H(z|x): 1.2442, mi: 0.2892, recon: 47.5353, nll: 48.7795, ppl: 84.3100
+20 active units
+update best loss
+TEST --- avg_loss: 48.8295, kl/H(z|x): 1.2387, mi: 0.2400, recon: 47.5826, nll: 48.8212, ppl: 84.6304
+epoch: 1, iter: 500, avg_loss: 47.8222, kl/H(z|x): 1.2917, recon: 46.5305,time elapsed 60.22s
+epoch: 1, iter: 550, avg_loss: 51.4242, kl/H(z|x): 1.7375, recon: 49.6867,time elapsed 61.58s
+epoch: 1, iter: 600, avg_loss: 51.8762, kl/H(z|x): 1.6511, recon: 50.2251,time elapsed 64.43s
+epoch: 1, iter: 650, avg_loss: 50.9553, kl/H(z|x): 1.6560, recon: 49.2993,time elapsed 66.71s

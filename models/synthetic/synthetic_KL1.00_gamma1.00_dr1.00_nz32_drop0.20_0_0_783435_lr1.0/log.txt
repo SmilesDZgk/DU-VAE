@@ -1,0 +1,77 @@
+Namespace(batch_size=32, cuda=False, dataset='synthetic', dec_dropout_in=0.5, dec_dropout_out=0.5, dec_nh=50, dec_type='lstm', decode_from='', decode_input='', decoding_strategy='greedy', delta_rate=1, device='cpu', enc_nh=50, enc_type='lstm', epochs=50, eval=False, gamma=1.0, iw_nsamples=500, jobid=0, kl_start=1.0, label=True, load_path='', log_path='models/synthetic/synthetic_KL1.00_gamma1.00_dr1.00_nz32_drop0.20_0_0_783435_lr1.0/log.txt', lr=1.0, momentum=0, ni=50, nsamples=1, nz=32, nz_new=32, p_drop=0.2, reset_dec=False, save_path='models/synthetic/synthetic_KL1.00_gamma1.00_dr1.00_nz32_drop0.20_0_0_783435_lr1.0/model.pt', seed=783435, target_kl=-1, taskid=0, test_data='data/synthetic_data/synthetic_test.txt', test_nepoch=1, train_data='data/synthetic_data/synthetic_train.txt', val_data='data/synthetic_data/synthetic_test.txt', vocab_file='data/synthetic_data/vocab.txt', warm_up=100)
+data/synthetic_data/vocab.txt
+Train data: 16000 samples
+finish reading datasets, vocab size is 1004
+dropped sentences: 0
+epoch: 0, iter: 0, avg_loss: 98.1471, kl/H(z|x): 22.1174, mi: 0.0398, recon: 76.0297,au 0, time elapsed 3.80s
+epoch: 0, iter: 50, avg_loss: 75.2584, kl/H(z|x): 8.0159, mi: -0.0773, recon: 67.2426,au 0, time elapsed 8.56s
+epoch: 0, iter: 100, avg_loss: 67.1634, kl/H(z|x): 6.2421, mi: -0.0161, recon: 60.9213,au 0, time elapsed 13.36s
+epoch: 0, iter: 150, avg_loss: 65.9610, kl/H(z|x): 6.4145, mi: 0.6229, recon: 59.5465,au 26, time elapsed 20.04s
+epoch: 0, iter: 200, avg_loss: 64.0590, kl/H(z|x): 6.3462, mi: 0.0654, recon: 57.7129,au 7, time elapsed 25.26s
+epoch: 0, iter: 250, avg_loss: 60.5662, kl/H(z|x): 6.2482, mi: -0.0251, recon: 54.3180,au 0, time elapsed 30.56s
+epoch: 0, iter: 300, avg_loss: 58.9862, kl/H(z|x): 6.2296, mi: -0.0323, recon: 52.7566,au 0, time elapsed 35.99s
+epoch: 0, iter: 350, avg_loss: 57.9861, kl/H(z|x): 6.2317, mi: 0.0645, recon: 51.7544,au 0, time elapsed 41.22s
+epoch: 0, iter: 400, avg_loss: 57.7159, kl/H(z|x): 6.2682, mi: -0.0005, recon: 51.4477,au 0, time elapsed 46.25s
+epoch: 0, iter: 450, avg_loss: 56.8888, kl/H(z|x): 6.1970, mi: 0.0484, recon: 50.6919,au 0, time elapsed 53.38s
+kl weight 1.0000
+VAL --- avg_loss: 69.2053, kl/H(z|x): 18.6423, mi: -0.1538, recon: 50.5630, nll: 69.2053, ppl: 539.9051
+0 active units
+update best loss
+TEST --- avg_loss: 69.2140, kl/H(z|x): 18.6423, mi: -0.0284, recon: 50.5717, nll: 69.2140, ppl: 540.3313
+epoch: 1, iter: 500, avg_loss: 55.1085, kl/H(z|x): 6.3617, recon: 48.7468,time elapsed 62.84s
+epoch: 1, iter: 550, avg_loss: 55.3878, kl/H(z|x): 6.1804, recon: 49.2074,time elapsed 64.00s
+epoch: 1, iter: 600, avg_loss: 55.1184, kl/H(z|x): 6.2019, recon: 48.9165,time elapsed 65.20s
+epoch: 1, iter: 650, avg_loss: 54.3091, kl/H(z|x): 6.2124, recon: 48.0967,time elapsed 66.34s
+epoch: 1, iter: 700, avg_loss: 54.2357, kl/H(z|x): 6.5016, recon: 47.7341,time elapsed 67.88s
+epoch: 1, iter: 750, avg_loss: 53.9039, kl/H(z|x): 6.1897, recon: 47.7142,time elapsed 69.46s
+epoch: 1, iter: 800, avg_loss: 53.8167, kl/H(z|x): 6.2032, recon: 47.6135,time elapsed 70.90s
+epoch: 1, iter: 850, avg_loss: 53.5023, kl/H(z|x): 6.2023, recon: 47.2999,time elapsed 73.23s
+epoch: 1, iter: 900, avg_loss: 53.8856, kl/H(z|x): 6.2500, recon: 47.6356,time elapsed 75.30s
+epoch: 1, iter: 950, avg_loss: 53.3251, kl/H(z|x): 6.2294, recon: 47.0958,time elapsed 76.53s
+kl weight 1.0000
+VAL --- avg_loss: 49.8829, kl/H(z|x): 3.8641, mi: 0.0947, recon: 46.0188, nll: 49.8829, ppl: 93.2058
+0 active units
+update best loss
+TEST --- avg_loss: 49.8833, kl/H(z|x): 3.8641, mi: -0.0544, recon: 46.0192, nll: 49.8833, ppl: 93.2088
+epoch: 2, iter: 1000, avg_loss: 53.2816, kl/H(z|x): 5.3442, recon: 47.9374,time elapsed 91.88s
+epoch: 2, iter: 1050, avg_loss: 52.7176, kl/H(z|x): 6.2500, recon: 46.4677,time elapsed 93.11s
+epoch: 2, iter: 1100, avg_loss: 53.0183, kl/H(z|x): 6.2678, recon: 46.7505,time elapsed 94.73s
+epoch: 2, iter: 1150, avg_loss: 53.2235, kl/H(z|x): 6.2141, recon: 47.0094,time elapsed 95.95s
+epoch: 2, iter: 1200, avg_loss: 52.6633, kl/H(z|x): 6.0780, recon: 46.5854,time elapsed 99.24s
+epoch: 2, iter: 1250, avg_loss: 52.9677, kl/H(z|x): 6.1585, recon: 46.8092,time elapsed 100.49s
+epoch: 2, iter: 1300, avg_loss: 52.5459, kl/H(z|x): 6.1299, recon: 46.4160,time elapsed 101.89s
+epoch: 2, iter: 1350, avg_loss: 52.6617, kl/H(z|x): 6.0985, recon: 46.5632,time elapsed 103.14s
+epoch: 2, iter: 1400, avg_loss: 52.0059, kl/H(z|x): 6.0843, recon: 45.9216,time elapsed 104.36s
+epoch: 2, iter: 1450, avg_loss: 52.3689, kl/H(z|x): 6.1425, recon: 46.2264,time elapsed 105.60s
+kl weight 1.0000
+VAL --- avg_loss: 45.3509, kl/H(z|x): 1.3035, mi: 0.0306, recon: 44.0474, nll: 45.3509, ppl: 61.7324
+0 active units
+update best loss
+TEST --- avg_loss: 45.3404, kl/H(z|x): 1.3035, mi: -0.0230, recon: 44.0370, nll: 45.3404, ppl: 61.6738
+epoch: 3, iter: 1500, avg_loss: 49.9944, kl/H(z|x): 5.5341, recon: 44.4602,time elapsed 117.11s
+epoch: 3, iter: 1550, avg_loss: 52.2121, kl/H(z|x): 6.0559, recon: 46.1563,time elapsed 119.99s
+epoch: 3, iter: 1600, avg_loss: 52.0304, kl/H(z|x): 6.0492, recon: 45.9812,time elapsed 121.21s
+epoch: 3, iter: 1650, avg_loss: 52.0216, kl/H(z|x): 6.1220, recon: 45.8996,time elapsed 122.39s
+epoch: 3, iter: 1700, avg_loss: 52.1720, kl/H(z|x): 6.1192, recon: 46.0528,time elapsed 123.50s
+epoch: 3, iter: 1750, avg_loss: 52.4309, kl/H(z|x): 6.0886, recon: 46.3423,time elapsed 124.60s
+epoch: 3, iter: 1800, avg_loss: 52.6185, kl/H(z|x): 6.3136, recon: 46.3049,time elapsed 125.72s
+epoch: 3, iter: 1850, avg_loss: 51.9571, kl/H(z|x): 6.1577, recon: 45.7994,time elapsed 126.91s
+epoch: 3, iter: 1900, avg_loss: 51.9346, kl/H(z|x): 6.1612, recon: 45.7734,time elapsed 128.86s
+epoch: 3, iter: 1950, avg_loss: 51.6526, kl/H(z|x): 6.1017, recon: 45.5510,time elapsed 131.37s
+kl weight 1.0000
+VAL --- avg_loss: 44.7754, kl/H(z|x): 0.8472, mi: 0.0321, recon: 43.9282, nll: 44.7754, ppl: 58.5859
+0 active units
+update best loss
+TEST --- avg_loss: 44.7674, kl/H(z|x): 0.8472, mi: -0.0025, recon: 43.9202, nll: 44.7674, ppl: 58.5432
+epoch: 4, iter: 2000, avg_loss: 50.4556, kl/H(z|x): 6.1846, recon: 44.2711,time elapsed 142.19s
+epoch: 4, iter: 2050, avg_loss: 51.7029, kl/H(z|x): 6.2001, recon: 45.5028,time elapsed 143.48s
+epoch: 4, iter: 2100, avg_loss: 52.0093, kl/H(z|x): 6.0755, recon: 45.9338,time elapsed 144.65s
+epoch: 4, iter: 2150, avg_loss: 51.8900, kl/H(z|x): 6.0952, recon: 45.7948,time elapsed 145.75s
+epoch: 4, iter: 2200, avg_loss: 51.6964, kl/H(z|x): 6.0536, recon: 45.6428,time elapsed 146.84s
+epoch: 4, iter: 2250, avg_loss: 51.6489, kl/H(z|x): 6.1424, recon: 45.5065,time elapsed 148.00s
+epoch: 4, iter: 2300, avg_loss: 51.8192, kl/H(z|x): 6.0458, recon: 45.7734,time elapsed 149.10s
+epoch: 4, iter: 2350, avg_loss: 51.3648, kl/H(z|x): 5.9993, recon: 45.3655,time elapsed 150.19s
+epoch: 4, iter: 2400, avg_loss: 52.3250, kl/H(z|x): 6.2564, recon: 46.0686,time elapsed 151.32s
+epoch: 4, iter: 2450, avg_loss: 51.6578, kl/H(z|x): 6.0313, recon: 45.6266,time elapsed 152.43s
+kl weight 1.0000
+VAL --- avg_loss: 44.6217, kl/H(z|x): 0.7541, mi: 0.1146, recon: 43.8676, nll: 44.6217, ppl: 57.7731
