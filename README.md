@@ -11,7 +11,7 @@ Very thanks for its authors.
 
 
 ### Data
-Datastes used in this paper can be downloaded in this [link](https://drive.google.com/drive/folders/13sMpOJLFkROPxaIBKl8NUSOEvQjUQyq_?usp=sharing). 
+Datastes used in this paper can be downloaded in this [link](https://drive.google.com/drive/folders/13sMpOJLFkROPxaIBKl8NUSOEvQjUQyq_?usp=sharing), with the specific license if that is based on MIT License. 
 ### Usage
 Example script to train DU-VAE on text data:
 ```angular2
