@@ -70,11 +70,12 @@ Here,
 For example, when we set `--flow width 60` with the dimension of $z$ as 32, the hidden size of each IAF block is 1920. 
 
 ### Reference
+If you find our methods or code helpful, please kindly cite the paper: 
 ```angular2
 @inproceedings{shen2021regularizing,
   title={Regularizing Variational Autoencoder with Diversity and Uncertainty Awareness},
   author={Shen, Dazhong  and Qin, Chuan and Wang, Chao and Zhu, Hengshu and Chen, Enhong and Xiong, Hui},
-  booktitle={Proceedings of The Web Conference 2021},
+  booktitle={Proceedings of the 30th International Joint Conference on Artificial Intelligence (IJCAI-21)},
   year={2021}
 }
 ``` 
